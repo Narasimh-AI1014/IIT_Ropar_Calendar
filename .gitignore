@@ -1,0 +1,23 @@
+# ===== Secrets: never commit these =====
+secrets.yml
+**/secrets.yml
+.env
+.env.local
+.env.*.local
+
+# ===== Dependencies and build output =====
+node_modules/
+dist/
+build/
+target/
+.vite/
+
+# ===== Editor / OS files =====
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ===== Logs and temporary files =====
+*.log
+*.zip
